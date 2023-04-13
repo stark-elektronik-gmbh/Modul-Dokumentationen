@@ -77,6 +77,6 @@ Diese Funktion generiert den Report und versendet ihn ggf. per E-Mail.
 Ebenfalls gibt diese Funktion ein Array mit dem Report als CSV und als HTML zurück.
 
 Beispiel:
-`SAG_BeispielFunktion('01.01.2023 00:00', '31.01.2023 23:59', true, true, true);`
+`SAG_generateReport('01.01.2023 00:00', '31.01.2023 23:59', true, true, true);`
 
 Dieses Beispiel erstellt einen Report vom 01.01.2023 bis zum 31.01.2023, welcher den Verbrauch, sowie den Zählerstand zum 31.01.2023 23:59 Uhr enthält und versendet den Report per E-Mail an die E-Mail Adresse welche im Webfront bzw. in der Instanzkonfiguration hinterlegt ist.

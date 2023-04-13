@@ -1,67 +1,35 @@
-# VermieterDaten
-Beschreibung des Moduls.
+# Abrechnungsdaten Vermeiter
+Diese Instanz spiegelt alle Informationen der Vermieter wieder und wird als Gateway genutzt.
 
 ### Inhaltsverzeichnis
 
-1. [Funktionsumfang](#1-funktionsumfang)
-2. [Voraussetzungen](#2-voraussetzungen)
-3. [Software-Installation](#3-software-installation)
-4. [Einrichten der Instanzen in IP-Symcon](#4-einrichten-der-instanzen-in-ip-symcon)
-5. [Statusvariablen und Profile](#5-statusvariablen-und-profile)
-6. [WebFront](#6-webfront)
-7. [PHP-Befehlsreferenz](#7-php-befehlsreferenz)
+- [Abrechnungsdaten Vermeiter](#abrechnungsdaten-vermeiter)
+    - [Inhaltsverzeichnis](#inhaltsverzeichnis)
+    - [1. Funktionsumfang](#1-funktionsumfang)
+    - [2. Voraussetzungen](#2-voraussetzungen)
+    - [3. Einrichten der Instanzen in IP-Symcon](#3-einrichten-der-instanzen-in-ip-symcon)
 
 ### 1. Funktionsumfang
 
-*
+* Spiegelt alle wichtigen Informationen für die Reports wieder
 
 ### 2. Voraussetzungen
 
-- IP-Symcon ab Version 5.5
+* mindestens IPS Version 6.3
+* Symcon_Smart_Metering Modul für die Zählervariablen
 
-### 3. Software-Installation
+### 3. Einrichten der Instanzen in IP-Symcon
 
-* Über den Module Store das 'VermieterDaten'-Modul installieren.
-* Alternativ über das Module Control folgende URL hinzufügen
-
-### 4. Einrichten der Instanzen in IP-Symcon
-
- Unter 'Instanz hinzufügen' kann das 'VermieterDaten'-Modul mithilfe des Schnellfilters gefunden werden.  
-	- Weitere Informationen zum Hinzufügen von Instanzen in der [Dokumentation der Instanzen](https://www.symcon.de/service/dokumentation/konzepte/instanzen/#Instanz_hinzufügen)
+Sobald der Konfigurator für dieses Modul angelegt wird, wird ebenfalls diese Instanz erstellt.
+ 
 
 __Konfigurationsseite__:
 
 Name     | Beschreibung
 -------- | ------------------
-         |
-         |
-
-### 5. Statusvariablen und Profile
-
-Die Statusvariablen/Kategorien werden automatisch angelegt. Das Löschen einzelner kann zu Fehlfunktionen führen.
-
-#### Statusvariablen
-
-Name   | Typ     | Beschreibung
------- | ------- | ------------
-       |         |
-       |         |
-
-#### Profile
-
-Name   | Typ
------- | -------
-       |
-       |
-
-### 6. WebFront
-
-Die Funktionalität, die das Modul im WebFront bietet.
-
-### 7. PHP-Befehlsreferenz
-
-`boolean VD_BeispielFunktion(integer $InstanzID);`
-Erklärung der Funktion.
-
-Beispiel:
-`VD_BeispielFunktion(12345);`
+Firma | Firmennamen, welcher auf den Reports zu finden ist,
+SMTP Instanz | Die SMTP Instanz wird benötigt, damit Symcon die E-Mails mit den Reports versenden kann, die SMTP Instanz muss zur Zeit einmalig per Hand erstellt werden und hier hinterlegt werden.
+E-Mail | In diesem Textfeld muss die E-Mail Adresse des Vermieters hinterlegt werden. An diese E-Mail werden die Gesamt Reports gesendet.
+E-Mail Betreff| In diesem Textfeld wird der Betreff für die Report E-Mail hinterlegt.
+E-Mail Body| In diesem Textfeld wird der Inhalt hinterlegt, welcher in der E-Mail übermittelt wird.
+Logo | Hier kann ein Logo hinterlegt werden, welches für den PDF Report verwendet werden soll.
