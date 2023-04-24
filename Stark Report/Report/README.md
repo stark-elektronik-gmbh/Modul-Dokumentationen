@@ -50,6 +50,8 @@ Berichts Variablen | Hier können die Variablen ausgewählt werden, welche auf d
 Bericht zur Mitte des Monats | Die CheckBox aktiviert einen Timer, der zur Mitte des Monats einen Bericht generiert.
 Bericht zum Ende des Monats | Die CheckBox aktiviert einen Timer, der zum Ende des Monats einen Bericht generiert.
 
+Über den Button "Download Objektbaum als CSV" kann eine CSV Datei heruntergeladen werden, die alle Variablen im Objektbaum in einer CSV Datei bereitstellt, anhand dieser Datei kann eine CSV Datei erstellt werden, welche im Modul importiert werden kann.
+
 ### 5. Statusvariablen und Profile
 
 Die Statusvariablen/Kategorien werden automatisch angelegt. Das Löschen einzelner kann zu Fehlfunktionen führen.
