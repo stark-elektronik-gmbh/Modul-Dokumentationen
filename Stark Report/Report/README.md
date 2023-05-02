@@ -56,11 +56,11 @@ Bericht zum Ende des Monats | Die CheckBox aktiviert einen Timer, der zum Ende d
 Über den Button "Download Objektbaum als CSV" (1) kann eine CSV Datei heruntergeladen werden, die alle Variablen des Objektbaumes in einer CSV Datei bereitstellt.
 In der letzten Spalte "Report" (rot markiert), kann durch hinzufügen eines "x" die Variable für den Report ausgewählt werden. 
 
-![CSV Import](/docs/pictures/Report_CSV_Datei.png)
+![CSV Import](../docs/pictures/Report/Report_CSV_Datei.png)
 
 Sobald die Datei gespeichert ist, kann diese über die Konfigurationsform in das Modul geladen werden (2), nach einem Klick auf "Importiere CSV" (3), werden die Variablen dem Report hinzugefügt, diese Funktion dient für den Massenimport von Variablen für den Report.
 
-![CSV Import](/docs/pictures/Report_CSV_Import.png)
+![CSV Import](../docs/pictures/Report/Report_CSV_Import.png)
 
 ### 5. Statusvariablen und Profile
 
