@@ -9,6 +9,7 @@ Beschreibung des Moduls.
     - [2. Voraussetzungen](#2-voraussetzungen)
     - [3. Software-Installation](#3-software-installation)
     - [4. Einrichten der Instanzen in IP-Symcon](#4-einrichten-der-instanzen-in-ip-symcon)
+    - [4.1 Variablen Massenimport](#41-variablen-massenimport)
     - [5. Statusvariablen und Profile](#5-statusvariablen-und-profile)
       - [Statusvariablen](#statusvariablen)
       - [Profile](#profile)
@@ -46,11 +47,20 @@ Empfänger Adresse | E-Mail Adresse für den Empfänger des Reports
 E-Mail Betreff | Betreff für die E-Mail des Report
 E-Mail Nachricht | Inhalt der E-Mail
 Logo | Logo welches auf im PDF Report angezeigt werden soll.
-Berichts Variablen | Hier können die Variablen ausgewählt werden, welche auf de Bericht erscheinen sollen, es kann auch eine CSV Datei importiert werden.
+Berichts Variablen | Hier können die Variablen ausgewählt werden, welche auf de Bericht erscheinen sollen, es kann auch eine CSV Datei importiert werden (siehe Massenimport)
 Bericht zur Mitte des Monats | Die CheckBox aktiviert einen Timer, der zur Mitte des Monats einen Bericht generiert.
 Bericht zum Ende des Monats | Die CheckBox aktiviert einen Timer, der zum Ende des Monats einen Bericht generiert.
 
-Über den Button "Download Objektbaum als CSV" kann eine CSV Datei heruntergeladen werden, die alle Variablen im Objektbaum in einer CSV Datei bereitstellt, anhand dieser Datei kann eine CSV Datei erstellt werden, welche im Modul importiert werden kann.
+### 4.1 Variablen Massenimport
+
+Über den Button "Download Objektbaum als CSV" (1) kann eine CSV Datei heruntergeladen werden, die alle Variablen des Objektbaumes in einer CSV Datei bereitstellt.
+In der letzten Spalte "Report" (rot markiert), kann durch hinzufügen eines "x" die Variable für den Report ausgewählt werden. 
+
+![CSV Import](/docs/pictures/Report_CSV_Datei.png)
+
+Sobald die Datei gespeichert ist, kann diese über die Konfigurationsform in das Modul geladen werden (2), nach einem Klick auf "Importiere CSV" (3), werden die Variablen dem Report hinzugefügt, diese Funktion dient für den Massenimport von Variablen für den Report.
+
+![CSV Import](/docs/pictures/Report_CSV_Import.png)
 
 ### 5. Statusvariablen und Profile
 
