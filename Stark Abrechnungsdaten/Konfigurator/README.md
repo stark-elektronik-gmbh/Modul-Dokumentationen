@@ -31,5 +31,5 @@ Name     | Beschreibung
 -------- | ------------------
 CSV Datei für Wohnungen | Über diesen Dateiupload muss die CSV Datei hochgeladen werden, welche die Wohnungen inkl. Zählernummern enthält.
 SMTP Instanz | Die SMTP Instanz wird benötigt, damit Symcon die E-Mails mit den Reports versenden kann, die SMTP Instanz muss zur Zeit einmalig per Hand erstellt werden und hier hinterlegt werden.
-Vermeiter E-Mail | In diesem Textfeld muss die E-Mail Adresse des Vermeiters hinterlegt werden, diese Adresse wird benötigt, damit der Versand per E-Mail erfolgen kann.
+Vermieter E-Mail | In diesem Textfeld muss die E-Mail Adresse des Vermeiters hinterlegt werden, diese Adresse wird benötigt, damit der Versand per E-Mail erfolgen kann.
 Konfigurator| Über diese Liste können die einzelnen Instanz erstellt werden, über welche die Reports für die Wohnungen bzw. für die gesamte Wohneinheit erstellt und versendet werden können.

@@ -40,7 +40,7 @@ Name     | Beschreibung
 Aktiv | Über diese CheckBox kann die Instanz ein- bzw. ausgeschaltet und somit das automatische Senden nach hinterlegtem Intervall aktiviert. bzw. deaktiviert werden. 
 **Benachichtigungseinstellungen** |
 SMTP Instanz | Diese Einstellung wird automatisch über den Konfigurator gefüllt und wird zum Versand der E-Mails benötigt.
-Mieter E-Mail | Hier wird die E-Mail Adresse des Mieters hinterlegt, welche für den Versand der Reports verwendet wird, solange im Webfront keine andere E-Mail Adresse hinterlegt wurde.
+Mieter E-Mail | Hier kann eine Liste (Nach ; getrennt) hinterlegt werden, welche für den Versand der Reports an die Mieter verwendet wird, solange im Webfront keine andere E-Mail Adresse hinterlegt wurde.
 Liste | Diese Liste wird über den Konfigurator mit allen Wohnungen und en dazugehörigen Zählern gefüllt.
 
 ### 5. Statusvariablen und Profile

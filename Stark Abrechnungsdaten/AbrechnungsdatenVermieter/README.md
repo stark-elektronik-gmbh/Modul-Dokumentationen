@@ -29,7 +29,7 @@ Name     | Beschreibung
 -------- | ------------------
 Firma | Firmennamen, welcher auf den Reports zu finden ist,
 SMTP Instanz | Die SMTP Instanz wird benötigt, damit Symcon die E-Mails mit den Reports versenden kann, die SMTP Instanz muss zur Zeit einmalig per Hand erstellt werden und hier hinterlegt werden.
-E-Mail | In diesem Textfeld muss die E-Mail Adresse des Vermieters hinterlegt werden. An diese E-Mail werden die Gesamt Reports gesendet.
+E-Mail | In diesem Textfeld muss die E-Mail Adresse des Vermieters hinterlegt werden. An diese E-Mail werden die Gesamt Reports gesendet. Eine Liste mit ; getrennt ist ebenfalls möglich.
 E-Mail Betreff| In diesem Textfeld wird der Betreff für die Report E-Mail hinterlegt.
 E-Mail Body| In diesem Textfeld wird der Inhalt hinterlegt, welcher in der E-Mail übermittelt wird.
 Logo | Hier kann ein Logo hinterlegt werden, welches für den PDF Report verwendet werden soll.
