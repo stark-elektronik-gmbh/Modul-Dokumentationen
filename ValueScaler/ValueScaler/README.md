@@ -14,6 +14,7 @@ Dieses Modul überträgt einen Wert aus einem Wertebereich in einen anderen.
       - [Profile](#profile)
     - [6. WebFront](#6-webfront)
     - [7. PHP-Befehlsreferenz](#7-php-befehlsreferenz)
+    - [8. Aktionen](#8-aktionen)
 
 ### 1. Funktionsumfang
 
@@ -72,3 +73,8 @@ Diese Funktion führt eine Berechnung durch und gibt das Ergebnis aus.
 Beispiel:
 `VS_scale(12345,50,0,100,0,255);`
 Das Ergebnis wäre 128.  
+
+### 8. Aktionen
+
+Mit der Aktion "Skaliere Variable" kann die Funktion des Moduls in jedem Ereignis oder Ablaufplan genutzt werden, sofern die Quellvariable, auf die das Ereignis gesetzt wird eine Integer Variable ist.
+Für die Parametererklärung siehe die Tabelle der Statusvariablen.
