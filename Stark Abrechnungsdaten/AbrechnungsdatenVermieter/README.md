@@ -33,3 +33,4 @@ E-Mail | In diesem Textfeld muss die E-Mail Adresse des Vermieters hinterlegt we
 E-Mail Betreff| In diesem Textfeld wird der Betreff für die Report E-Mail hinterlegt.
 E-Mail Body| In diesem Textfeld wird der Inhalt hinterlegt, welcher in der E-Mail übermittelt wird.
 Logo | Hier kann ein Logo hinterlegt werden, welches für den PDF Report verwendet werden soll.
+Leere Zähler in Berichten | Wenn aktiviert, werden auch Zähler in den Report gelistet, welche keine Zuordnung besitzen.
